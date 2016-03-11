@@ -1,0 +1,53 @@
+div.page-content {
+    padding-top:0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    border: 0;
+}
+@media screen and (min-width: 768px) {
+    .prolotifo-sidebar-nav {
+        display:block !important;
+        position:fixed;
+        top:150px;
+        right:20px;
+    }    
+}
+.jumbotron {
+    background: #F5F5F5;
+    padding:100px 0;
+}
+.prolotifo-sidebar-nav {
+    display:none;
+}
+.intro {
+    border-bottom: 1px solid #EFF0F1;
+    padding-bottom: 40px;
+}
+.intro p {
+    font-size:1.57143em;
+    line-height:1.45455em;
+}
+.prolotifo {
+    padding-top:20px;
+}
+.prolotifo-nav {
+    width:700px;
+    
+    ul {
+        display:block;
+        margin:0;
+        
+        li:first-child {
+            padding-left:0;
+        }
+        
+        li {
+            float:left;
+            list-style:none;
+            padding-left:16px;
+        }
+    }
+}
